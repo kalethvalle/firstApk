@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145423944-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-145423944-1');
+    </script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contenedor-titulo {
+            display: flex;
+            flex: 10;
+            align-items: center;
+            justify-content: center;
+            background-color: darkblue;
+        }
+
+        .titulo {
+            color: white;
+        }
+
+        .contentedor-menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .contenedor-imagenes {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 100%;
+            background-color: aquamarine
+        }
+
+        .imagenes {
+            display: flex;
+            flex: auto;
+            max-width: 180px;
+            margin: 10px;
+            /* height: 150px; */
+        }
+
+        .imagene1 {
+            display: flex;
+            flex: 2;
+        }
+
+        .imagene2 {
+            display: flex;
+            flex: 1;
+        }
+
+        .imagene3 {
+            display: flex;
+            flex: 1;
+        }
+
+        .imagene4 {
+            display: flex;
+            flex: 1;
+        }
+
+        .video {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contenedor-titulo">
+        <h1 class="titulo">Diplomado Full Stack</h1>
+    </div>
+    <div class="contentedor-menu">
+        <a href="">
+            <p>Inicio</p>
+        </a>
+        <a href="https://www.pexels.com/">
+            <p>Temas</p>
+        </a>
+        <p>Profesores</p>
+        <p>Estudiantes</p>
+    </div>
+    <div class="contenedor-imagenes">
+        <img class="imagenes imagene1" src="https://images.pexels.com/photos/1010519/pexels-photo-1010519.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
+        <img class="imagenes imagene2" src="https://images.pexels.com/photos/207561/pexels-photo-207561.png?auto=compress&cs=tinysrgb&dpr=1&w=500">
+        <img class="imagenes imagene3" src="https://images.pexels.com/photos/36463/person-human-guitar-players.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+        <img class="imagenes imagene4" src="https://images.pexels.com/photos/2332257/pexels-photo-2332257.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+    </div>
+    <div class="video">
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/eGwyENCvpc4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+</body>
+
+</html>
